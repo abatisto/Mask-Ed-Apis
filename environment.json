@@ -1,0 +1,4 @@
+{
+    "srcFileLocation": "csvs",
+    "destFileLocation": "processedCsvs"
+}
