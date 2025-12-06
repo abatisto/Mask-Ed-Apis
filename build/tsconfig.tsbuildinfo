@@ -181,89 +181,54 @@
         "signature": "905b020308ed3bd9cd2457f5a4def1844620d48020cec405cafb4e86b3194af1",
         "affectsGlobalScope": true
       },
+      "../node_modules/moment/ts3.1-typings/moment.d.ts": {
+        "version": "4051f6311deb0ce6052329eeb1cd4b1b104378fe52f882f483130bea75f92197",
+        "signature": "4051f6311deb0ce6052329eeb1cd4b1b104378fe52f882f483130bea75f92197",
+        "affectsGlobalScope": false
+      },
       "../src/classes/obfuscationtransform.ts": {
-        "version": "02facdcc26be98403b107cfb940051b5803d8c51b13343b3c53fa3625c3764ab",
-        "signature": "6341637082e27f6f3ffcba9cea579b86b01ec3dbab103dfd63fce69b46b32e8a",
+        "version": "9098ac939a79a7c3bafdcb09beaf3c8bfae3df459e86d32650ca59c033f1af34",
+        "signature": "7f07b83e7c2c2ea3075a1f04785e868a2e4ef257a78f3f103fcd5857e68bd979",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/csvtojson/v2/parameters.d.ts": {
+        "version": "907ec3c6ba8e5a8f65ecbdfbfd5de22d1fbe86f1ed477cd49350f86696820756",
+        "signature": "907ec3c6ba8e5a8f65ecbdfbfd5de22d1fbe86f1ed477cd49350f86696820756",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/csvtojson/v2/csverror.d.ts": {
+        "version": "6c8666ff5daf8aad8d8842176eb258b5793408464429a01940a50ee5c4658ea3",
+        "signature": "6c8666ff5daf8aad8d8842176eb258b5793408464429a01940a50ee5c4658ea3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/csvtojson/v2/parseruntime.d.ts": {
+        "version": "5e22d21b026625c039a289d8de6d748e35bfc58a00ec724a1c899daef80d93a1",
+        "signature": "5e22d21b026625c039a289d8de6d748e35bfc58a00ec724a1c899daef80d93a1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/csvtojson/v2/converter.d.ts": {
+        "version": "863952710b7d390236cafd97c10fe6c4934b7d0cbce3f6c4bcbe579896086cc6",
+        "signature": "863952710b7d390236cafd97c10fe6c4934b7d0cbce3f6c4bcbe579896086cc6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/csvtojson/v2/index.d.ts": {
+        "version": "ece6cc7422ea36b1b190bbe64b4f5dc3284f1836dd074c737f97e54694932d12",
+        "signature": "ece6cc7422ea36b1b190bbe64b4f5dc3284f1836dd074c737f97e54694932d12",
+        "affectsGlobalScope": false
+      },
+      "../src/classes/csvparser.ts": {
+        "version": "26fc707c283ac974c04161eafda599e0e2148eb355a5ea364751e3abf941a017",
+        "signature": "10cefdc7e16c08ebc527fe6c0a55cad3b275f4e072d34638983a2f88742a4a0f",
         "affectsGlobalScope": false
       },
       "../src/handlers.ts": {
-        "version": "7f03828429788aa3cf407c68cd0bbd37f9b0999ab9c399d2ff45bdc78d8f77c2",
-        "signature": "6f5d60ee30e94e6d397bf7e167668ab0c280c9e707a93a2f78f127928186f666",
-        "affectsGlobalScope": false
-      },
-      "../src/lib/async.ts": {
-        "version": "a745822f1a576057a3c1fc1b86ffb393302d6dfafca8787e6c719096d1df8afa",
-        "signature": "5697547a4d3c9032e75419871add2d19d6fa7df4c6f8cb960e7ce1d6401034a6",
-        "affectsGlobalScope": false
-      },
-      "../src/lib/number.ts": {
-        "version": "16bead5fffbcfbc95d09998d3d5468c9ebc49c9bddf4b10b2d2c21d99bc62d2c",
-        "signature": "cf023303abf61b8bcb929c7833159fe018f3c594b3f4a3e1d9a3c510e3900bfd",
+        "version": "abf19b4d6831c5ad381d0f8e6043e2253a946420fe7b9c7e70220d29015d1166",
+        "signature": "9957486a97747f63754e56cd9901a74d251e9cf1eedd3be2b8375a095f3360d8",
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
         "version": "ac372956ba41c7164ad658c4c96473bbe10dd872a7251d33a34d69056f20ba6e",
         "signature": "9e45b48d7724a1de8d2a1f43eca0db4475901773f52a294e1e8f3f1cf506f842",
-        "affectsGlobalScope": false
-      },
-      "../../node_modules/csvtojson/v2/parameters.d.ts": {
-        "version": "907ec3c6ba8e5a8f65ecbdfbfd5de22d1fbe86f1ed477cd49350f86696820756",
-        "signature": "907ec3c6ba8e5a8f65ecbdfbfd5de22d1fbe86f1ed477cd49350f86696820756",
-        "affectsGlobalScope": false
-      },
-      "../../node_modules/csvtojson/v2/csverror.d.ts": {
-        "version": "6c8666ff5daf8aad8d8842176eb258b5793408464429a01940a50ee5c4658ea3",
-        "signature": "6c8666ff5daf8aad8d8842176eb258b5793408464429a01940a50ee5c4658ea3",
-        "affectsGlobalScope": false
-      },
-      "../../node_modules/csvtojson/v2/parseruntime.d.ts": {
-        "version": "5e22d21b026625c039a289d8de6d748e35bfc58a00ec724a1c899daef80d93a1",
-        "signature": "5e22d21b026625c039a289d8de6d748e35bfc58a00ec724a1c899daef80d93a1",
-        "affectsGlobalScope": false
-      },
-      "../../node_modules/csvtojson/v2/converter.d.ts": {
-        "version": "863952710b7d390236cafd97c10fe6c4934b7d0cbce3f6c4bcbe579896086cc6",
-        "signature": "863952710b7d390236cafd97c10fe6c4934b7d0cbce3f6c4bcbe579896086cc6",
-        "affectsGlobalScope": false
-      },
-      "../../node_modules/csvtojson/v2/index.d.ts": {
-        "version": "ece6cc7422ea36b1b190bbe64b4f5dc3284f1836dd074c737f97e54694932d12",
-        "signature": "ece6cc7422ea36b1b190bbe64b4f5dc3284f1836dd074c737f97e54694932d12",
-        "affectsGlobalScope": false
-      },
-      "../../node_modules/json-2-csv/lib/types.d.ts": {
-        "version": "2eb03dcc6595091e3fa1b8f96c5713dd53f8b1056837e6e4c8158bb68019b78c",
-        "signature": "2eb03dcc6595091e3fa1b8f96c5713dd53f8b1056837e6e4c8158bb68019b78c",
-        "affectsGlobalScope": false
-      },
-      "../../node_modules/json-2-csv/lib/converter.d.ts": {
-        "version": "2f8d7f33434da3d327c8c54414711114f0b4e8775f4b08ed51cd478015469df7",
-        "signature": "2f8d7f33434da3d327c8c54414711114f0b4e8775f4b08ed51cd478015469df7",
-        "affectsGlobalScope": false
-      },
-      "../src/classes/csvparser.ts": {
-        "version": "c7aadd481f4789f8dd198309c7e2546ead78c3d9b5242aaeb794e592b4b9ec7c",
-        "signature": "10cefdc7e16c08ebc527fe6c0a55cad3b275f4e072d34638983a2f88742a4a0f",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/ava/index.d.ts": {
-        "version": "0ceec7923fb2a6e540f73682c7acffe9124c9c3517a02eac27632844b8a61251",
-        "signature": "0ceec7923fb2a6e540f73682c7acffe9124c9c3517a02eac27632844b8a61251",
-        "affectsGlobalScope": false
-      },
-      "../src/lib/async.spec.ts": {
-        "version": "82dd0157ee70d4f91d59608f6161bf8d43a1901b486913ad34a0b24c42b0a37a",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
-        "affectsGlobalScope": false
-      },
-      "../src/lib/number.spec.ts": {
-        "version": "374474d3b0eb8552ed4d58188949196cb939b2657907df03c175758a40b7935a",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
-        "affectsGlobalScope": false
-      },
-      "../src/types/example.d.ts": {
-        "version": "5429d50f3816e7b0728b2283a1aac1f192f716a084a69245d25dbeb7547e5acc",
-        "signature": "5429d50f3816e7b0728b2283a1aac1f192f716a084a69245d25dbeb7547e5acc",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/ts5.6/compatibility/float16array.d.ts": {
@@ -841,6 +806,7 @@
         "../node_modules/@types",
         "../src/types"
       ],
+      "skipLibCheck": true,
       "project": "../tsconfig.json",
       "configFilePath": "../tsconfig.json"
     },
@@ -1497,13 +1463,53 @@
         "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts",
         "../node_modules/@types/node/zlib.d.ts"
       ],
-      "../node_modules/ava/index.d.ts": [
+      "../node_modules/buffer/index.d.ts": [
         "../node_modules/@types/node/buffer.d.ts",
         "../node_modules/@types/node/inspector.d.ts",
         "../node_modules/@types/node/inspector.generated.d.ts",
         "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
       ],
-      "../node_modules/buffer/index.d.ts": [
+      "../node_modules/csvtojson/v2/converter.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/inspector.generated.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts",
+        "../node_modules/csvtojson/v2/csverror.d.ts",
+        "../node_modules/csvtojson/v2/parameters.d.ts",
+        "../node_modules/csvtojson/v2/parseruntime.d.ts"
+      ],
+      "../node_modules/csvtojson/v2/csverror.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/inspector.generated.d.ts",
+        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
+      ],
+      "../node_modules/csvtojson/v2/index.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/inspector.generated.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts",
+        "../node_modules/csvtojson/v2/converter.d.ts",
+        "../node_modules/csvtojson/v2/parameters.d.ts"
+      ],
+      "../node_modules/csvtojson/v2/parameters.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/inspector.generated.d.ts",
+        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
+      ],
+      "../node_modules/csvtojson/v2/parseruntime.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/inspector.generated.d.ts",
+        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts",
+        "../node_modules/csvtojson/v2/converter.d.ts",
+        "../node_modules/csvtojson/v2/csverror.d.ts",
+        "../node_modules/csvtojson/v2/parameters.d.ts"
+      ],
+      "../node_modules/moment/ts3.1-typings/moment.d.ts": [
         "../node_modules/@types/node/buffer.d.ts",
         "../node_modules/@types/node/inspector.d.ts",
         "../node_modules/@types/node/inspector.generated.d.ts",
@@ -2105,8 +2111,6 @@
         "../node_modules/undici-types/patch.d.ts"
       ],
       "../src/classes/csvparser.ts": [
-        "../../node_modules/csvtojson/v2/index.d.ts",
-        "../../node_modules/json-2-csv/lib/converter.d.ts",
         "../node_modules/@types/node/buffer.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/inspector.d.ts",
@@ -2114,111 +2118,26 @@
         "../node_modules/@types/node/stream.d.ts",
         "../node_modules/@types/node/stream/promises.d.ts",
         "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts",
-        "../src/classes/obfuscationtransform.ts"
+        "../node_modules/csvtojson/v2/index.d.ts"
       ],
       "../src/classes/obfuscationtransform.ts": [
         "../node_modules/@types/node/buffer.d.ts",
         "../node_modules/@types/node/inspector.d.ts",
         "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts",
+        "../node_modules/moment/ts3.1-typings/moment.d.ts"
       ],
       "../src/handlers.ts": [
         "../node_modules/@types/node/buffer.d.ts",
         "../node_modules/@types/node/inspector.d.ts",
         "../node_modules/@types/node/inspector.generated.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
         "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts",
+        "../src/classes/csvparser.ts",
         "../src/classes/obfuscationtransform.ts"
       ],
       "../src/index.ts": [
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts",
-        "../src/lib/async.ts",
-        "../src/lib/number.ts"
-      ],
-      "../src/lib/async.spec.ts": [
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts",
-        "../node_modules/ava/index.d.ts",
-        "../src/lib/async.ts"
-      ],
-      "../src/lib/async.ts": [
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
-      ],
-      "../src/lib/number.spec.ts": [
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts",
-        "../node_modules/ava/index.d.ts",
-        "../src/lib/number.ts"
-      ],
-      "../src/lib/number.ts": [
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
-      ],
-      "../src/types/example.d.ts": [
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
-      ],
-      "../../node_modules/csvtojson/v2/converter.d.ts": [
-        "../../node_modules/csvtojson/v2/csverror.d.ts",
-        "../../node_modules/csvtojson/v2/parameters.d.ts",
-        "../../node_modules/csvtojson/v2/parseruntime.d.ts",
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/stream.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
-      ],
-      "../../node_modules/csvtojson/v2/csverror.d.ts": [
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
-      ],
-      "../../node_modules/csvtojson/v2/index.d.ts": [
-        "../../node_modules/csvtojson/v2/converter.d.ts",
-        "../../node_modules/csvtojson/v2/parameters.d.ts",
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/stream.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
-      ],
-      "../../node_modules/csvtojson/v2/parameters.d.ts": [
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
-      ],
-      "../../node_modules/csvtojson/v2/parseruntime.d.ts": [
-        "../../node_modules/csvtojson/v2/converter.d.ts",
-        "../../node_modules/csvtojson/v2/csverror.d.ts",
-        "../../node_modules/csvtojson/v2/parameters.d.ts",
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
-      ],
-      "../../node_modules/json-2-csv/lib/converter.d.ts": [
-        "../../node_modules/json-2-csv/lib/types.d.ts",
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
-      ],
-      "../../node_modules/json-2-csv/lib/types.d.ts": [
         "../node_modules/@types/node/buffer.d.ts",
         "../node_modules/@types/node/inspector.d.ts",
         "../node_modules/@types/node/inspector.generated.d.ts",
@@ -2878,13 +2797,53 @@
         "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts",
         "../node_modules/@types/node/zlib.d.ts"
       ],
-      "../node_modules/ava/index.d.ts": [
+      "../node_modules/buffer/index.d.ts": [
         "../node_modules/@types/node/buffer.d.ts",
         "../node_modules/@types/node/inspector.d.ts",
         "../node_modules/@types/node/inspector.generated.d.ts",
         "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
       ],
-      "../node_modules/buffer/index.d.ts": [
+      "../node_modules/csvtojson/v2/converter.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/inspector.generated.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts",
+        "../node_modules/csvtojson/v2/csverror.d.ts",
+        "../node_modules/csvtojson/v2/parameters.d.ts",
+        "../node_modules/csvtojson/v2/parseruntime.d.ts"
+      ],
+      "../node_modules/csvtojson/v2/csverror.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/inspector.generated.d.ts",
+        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
+      ],
+      "../node_modules/csvtojson/v2/index.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/inspector.generated.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts",
+        "../node_modules/csvtojson/v2/converter.d.ts",
+        "../node_modules/csvtojson/v2/parameters.d.ts"
+      ],
+      "../node_modules/csvtojson/v2/parameters.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/inspector.generated.d.ts",
+        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
+      ],
+      "../node_modules/csvtojson/v2/parseruntime.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/inspector.generated.d.ts",
+        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts",
+        "../node_modules/csvtojson/v2/converter.d.ts",
+        "../node_modules/csvtojson/v2/csverror.d.ts",
+        "../node_modules/csvtojson/v2/parameters.d.ts"
+      ],
+      "../node_modules/moment/ts3.1-typings/moment.d.ts": [
         "../node_modules/@types/node/buffer.d.ts",
         "../node_modules/@types/node/inspector.d.ts",
         "../node_modules/@types/node/inspector.generated.d.ts",
@@ -3488,68 +3447,15 @@
       "../src/classes/csvparser.ts": [
         "../node_modules/@types/node/stream.d.ts"
       ],
+      "../src/classes/obfuscationtransform.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../src/handlers.ts": [
+        "../src/classes/obfuscationtransform.ts"
+      ],
       "../src/index.ts": [
         "../src/lib/async.ts",
         "../src/lib/number.ts"
-      ],
-      "../src/types/example.d.ts": [
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
-      ],
-      "../../node_modules/csvtojson/v2/converter.d.ts": [
-        "../../node_modules/csvtojson/v2/csverror.d.ts",
-        "../../node_modules/csvtojson/v2/parameters.d.ts",
-        "../../node_modules/csvtojson/v2/parseruntime.d.ts",
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/stream.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
-      ],
-      "../../node_modules/csvtojson/v2/csverror.d.ts": [
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
-      ],
-      "../../node_modules/csvtojson/v2/index.d.ts": [
-        "../../node_modules/csvtojson/v2/converter.d.ts",
-        "../../node_modules/csvtojson/v2/parameters.d.ts",
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/stream.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
-      ],
-      "../../node_modules/csvtojson/v2/parameters.d.ts": [
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
-      ],
-      "../../node_modules/csvtojson/v2/parseruntime.d.ts": [
-        "../../node_modules/csvtojson/v2/converter.d.ts",
-        "../../node_modules/csvtojson/v2/csverror.d.ts",
-        "../../node_modules/csvtojson/v2/parameters.d.ts",
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
-      ],
-      "../../node_modules/json-2-csv/lib/converter.d.ts": [
-        "../../node_modules/json-2-csv/lib/types.d.ts",
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
-      ],
-      "../../node_modules/json-2-csv/lib/types.d.ts": [
-        "../node_modules/@types/node/buffer.d.ts",
-        "../node_modules/@types/node/inspector.d.ts",
-        "../node_modules/@types/node/inspector.generated.d.ts",
-        "../node_modules/@types/node/ts5.6/buffer.buffer.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": []
