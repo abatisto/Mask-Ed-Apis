@@ -1,4 +1,3 @@
-/// <reference types="node" />
 import { Transform } from "stream";
 declare abstract class ObfuscationTransform {
     static readonly transformId: number;
@@ -23,7 +22,7 @@ declare class TruncateTransform extends ObfuscationTransform {
 declare class ClearValueTransform extends ObfuscationTransform {
     static readonly transformId = 2;
     static readonly transformName = "Clear Value";
-    apply(value: any): string;
+    apply(value: any): any;
 }
 declare class RandomizeDate extends ObfuscationTransform {
     static readonly transformId = 3;

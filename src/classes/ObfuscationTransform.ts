@@ -1,5 +1,5 @@
 import { Transform, TransformCallback } from "stream";
-import moment, { Moment } from "moment";
+import moment from "moment";
 
 abstract class ObfuscationTransform {
     public static readonly transformId: number;
@@ -19,7 +19,7 @@ abstract class ObfuscationTransform {
 
     public getTransform(): Transform {
         let t = new Transform();
-        t._transform = (objString: any, encoding:BufferEncoding, callback: TransformCallback) => {
+        t._transform = (objString: any, _encoding:BufferEncoding, callback: TransformCallback) => {
             let obj = JSON.parse(objString);
             if(!obj[this.targetField]) obj[this.targetField] = "";
             // handle conditions here
@@ -61,7 +61,8 @@ class ClearValueTransform extends ObfuscationTransform {
     public static readonly transformId = 2;
     public static readonly transformName = "Clear Value";
     public apply(value) {
-        return "";
+        value = "";
+        return value;;
     }
 }
 

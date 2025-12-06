@@ -32,7 +32,7 @@ export class CSVParser {
         let i = 0;
 
         csv2Json
-            .on('data', (chunk) => {
+            .on('data', () => {
                 i++;
             })
 

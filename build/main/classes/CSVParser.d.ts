@@ -1,4 +1,3 @@
-/// <reference types="node" />
 import { Transform } from "stream";
 export declare class CSVParser {
     filename: string;
