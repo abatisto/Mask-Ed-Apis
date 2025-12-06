@@ -187,8 +187,8 @@
         "affectsGlobalScope": false
       },
       "../src/classes/obfuscationtransform.ts": {
-        "version": "9098ac939a79a7c3bafdcb09beaf3c8bfae3df459e86d32650ca59c033f1af34",
-        "signature": "7f07b83e7c2c2ea3075a1f04785e868a2e4ef257a78f3f103fcd5857e68bd979",
+        "version": "a87a4650047c63d7f468c4879eb115156efa564d228c5dfeb94487ec1bcc18eb",
+        "signature": "b99677ad920d4dc8c61d9b377892360dfdb4e2e20dbaef32860a632cddea9252",
         "affectsGlobalScope": false
       },
       "../node_modules/csvtojson/v2/parameters.d.ts": {

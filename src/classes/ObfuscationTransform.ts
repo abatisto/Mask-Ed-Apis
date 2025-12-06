@@ -206,10 +206,10 @@ function getCorrectTransform(transformName:string): ITransform {
     return foundTransform;
 }
 
-const allTransforms:ITransform[] = [HashTransform, TruncateTransform, ClearValueTransform, RandomizeDate, HidePhoneNumberTransform, DateToYear]
+const allTransforms:ITransform[] = [HashTransform, TruncateTransform, ClearValueTransform, RandomizeDate, HidePhoneNumberTransform, DateToYear, Replace, StripLeft, StripRight]
 
 export {
-    TruncateTransform, HashTransform, ClearValueTransform, RandomizeDate, HidePhoneNumberTransform,DateToYear,
+    TruncateTransform, HashTransform, ClearValueTransform, RandomizeDate, HidePhoneNumberTransform,DateToYear,Replace,StripLeft,StripRight,
     ITransform, IFieldConfig,
     getCorrectTransform
 }

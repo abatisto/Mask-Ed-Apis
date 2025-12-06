@@ -40,6 +40,21 @@ declare class DateToYear extends ObfuscationTransform {
     static readonly transformName = "Date To Year";
     apply(value: any): string;
 }
+declare class Replace extends ObfuscationTransform {
+    static readonly transformId = 6;
+    static readonly transformName = "Replace";
+    apply(value: string): string;
+}
+declare class StripRight extends ObfuscationTransform {
+    static readonly transformId = 7;
+    static readonly transformName = "Strip Right";
+    apply(value: string): string;
+}
+declare class StripLeft extends ObfuscationTransform {
+    static readonly transformId = 8;
+    static readonly transformName = "Strip Left";
+    apply(value: string): string;
+}
 interface ITransform {
     transformId: number;
     transformName: string;
@@ -56,4 +71,4 @@ interface IRawTransformConfig {
     params?: any;
 }
 declare function getCorrectTransform(transformName: string): ITransform;
-export { TruncateTransform, HashTransform, ClearValueTransform, RandomizeDate, HidePhoneNumberTransform, DateToYear, ITransform, IFieldConfig, getCorrectTransform };
+export { TruncateTransform, HashTransform, ClearValueTransform, RandomizeDate, HidePhoneNumberTransform, DateToYear, Replace, StripLeft, StripRight, ITransform, IFieldConfig, getCorrectTransform };

@@ -22,6 +22,11 @@
       methods:['GET', 'POST', 'PUT', 'DELTE', 'OPTIONS']
     }))
 
+    app.use(cors({
+      origin:'https://mask-ed.vercel.app',
+      methods:['GET', 'POST', 'PUT', 'DELTE', 'OPTIONS']
+    }))
+
     app.use(express.json());
 
 
