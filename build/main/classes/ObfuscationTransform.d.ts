@@ -36,7 +36,7 @@ declare class HidePhoneNumberTransform extends ObfuscationTransform {
 }
 declare class DateToYear extends ObfuscationTransform {
     static readonly transformId = 5;
-    static readonly transformName = "Date To Year";
+    static readonly transformName = "Date to Year";
     apply(value: any): string;
 }
 declare class Replace extends ObfuscationTransform {
@@ -70,4 +70,4 @@ interface IRawTransformConfig {
     params?: any;
 }
 declare function getCorrectTransform(transformName: string): ITransform;
-export { TruncateTransform, HashTransform, ClearValueTransform, RandomizeDate, HidePhoneNumberTransform, DateToYear, Replace, StripLeft, StripRight, ITransform, IFieldConfig, getCorrectTransform };
+export { TruncateTransform, HashTransform, ClearValueTransform, RandomizeDate, HidePhoneNumberTransform, DateToYear, Replace, StripLeft, StripRight, ITransform, IFieldConfig, IRawTransformConfig, getCorrectTransform };

@@ -1,3 +1,3 @@
-import { IFieldConfig } from "./classes/ObfuscationTransform";
-export declare function previewTransformsHandler(value: string, transforms: string[]): string;
-export declare function runTransformPipelineHandler(filename: string, newFilename: string, fieldConfigs: IFieldConfig[]): Promise<void>;
+import { IFieldConfig, IRawTransformConfig } from "./classes/ObfuscationTransform";
+export declare function previewTransformsHandler(value: string, transforms: IRawTransformConfig[]): string;
+export declare function runTransformPipelineHandler(filePath: string, newFilename: string, fieldConfigs: IFieldConfig[]): Promise<void>;

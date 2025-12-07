@@ -21,7 +21,6 @@ export class CSVParser {
     }
 
     public async runTransformPipeline(transforms: Transform[], destFileName: string) {
-        console.log(`Running Transform Pipeline from ${this.filename} to ${destFileName} applying ${transforms.length} transform(s)`)
         let srcStream = fs.createReadStream(this.filename);
         let destStream = fs.createWriteStream(destFileName);
         let headers = this.getFileInfo();

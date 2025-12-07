@@ -12,6 +12,7 @@ abstract class ObfuscationTransform {
 
     public abstract apply(value: string | null): string | null;
 
+
     constructor(targetField:string, params?) {
         this.targetField = targetField;
         this.params = params;
@@ -118,7 +119,7 @@ class HidePhoneNumberTransform extends ObfuscationTransform {
 
 class DateToYear extends ObfuscationTransform {
     public static readonly transformId = 5;
-    public static readonly transformName = "Date To Year";
+    public static readonly transformName = "Date to Year";
 
     public apply(value) {
         return moment(value).format("YYYY");
@@ -211,6 +212,6 @@ const allTransforms:ITransform[] = [HashTransform, TruncateTransform, ClearValue
 
 export {
     TruncateTransform, HashTransform, ClearValueTransform, RandomizeDate, HidePhoneNumberTransform,DateToYear,Replace,StripLeft,StripRight,
-    ITransform, IFieldConfig,
+    ITransform, IFieldConfig, IRawTransformConfig,
     getCorrectTransform
 }

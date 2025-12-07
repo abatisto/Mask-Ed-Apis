@@ -6,26 +6,46 @@
     const multer = require("multer");
     const app = express();
     const port = 3000;
-    const moment = require("moment");
     const path = require("path");
 
     const handlers = require("./build/main/handlers");
     const CSVParser = require("./build/main/classes/CSVParser").CSVParser;
 
     const csvDir = "csvs/"
-    const upload = multer({dest: csvDir});
+    const upload = multer({
+      dest: csvDir,
+      fileFilter(req, file, callback) {
+        const allowedExtensions = /csv/i;
+        const isValid = allowedExtensions.test(file.originalname);
+
+        if (!isValid) {
+          return callback("Invalid File Extension", false);
+        }
+
+        callback(null, true);
+      },
+    });
 
     const fileNameMap = new Map();
 
-    app.use(cors({
-      origin:'http://localhost:4200',
-      methods:['GET', 'POST', 'PUT', 'DELTE', 'OPTIONS']
-    }))
+    const allowedOrigins = [
+      "http://localhost:4200",
+      "https://mask-ed.vercel.app"
+    ];
 
     app.use(cors({
-      origin:'https://mask-ed.vercel.app',
-      methods:['GET', 'POST', 'PUT', 'DELTE', 'OPTIONS']
-    }))
+      origin: (origin, callback) => {
+        if (!origin) return callback(null, true);
+
+        if (allowedOrigins.includes(origin)) {
+          return callback(null, true);
+        }
+
+        return callback(new Error("Not allowed by CORS"));
+      },
+      methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+      credentials: true
+    }));
 
     app.use(express.json());
 
@@ -35,11 +55,11 @@
         if (!req.file) {
           return res.status(400).json({ error: "No file uploaded" });
         }
+        
 
         const { originalname, filename, path: srcPath } = req.file;
 
         fileNameMap.set(filename, {originalName:originalname,dateUploaded:new Date(),path:srcPath});
-        console.log(fileNameMap.get(filename))
         // Parse CSV
         let cols = new CSVParser(srcPath).getFileInfo();
 
@@ -56,10 +76,24 @@
     });
 
     app.get("/download/:filename", (req, res) => {
-      const filename = req.params.filename;
-      const filePath = path.join(__dirname, "out", filename);
+      const fileId = req.params.filename;
+      const filePath = path.join(__dirname, "out", fileId);
+      const downloadName = fileNameMap.get(fileId).originalName;
 
-      res.download(filePath, filename, (err) => {
+      res.download(filePath, downloadName, (err) => {
+        if (err) {
+          console.error("Download error:", err);
+          res.status(404).json({ error: "File not found" });
+        }
+      });
+    });
+
+    app.get("/downloadLog/:filename", (req, res) => {
+      const fileId = req.params.filename;
+      const filePath = path.join(__dirname, "logs", fileId);
+      const downloadName = `log_${fileNameMap.get(fileId).originalName.replace(".csv",'.txt')}`;
+
+      res.download(filePath, downloadName, (err) => {
         if (err) {
           console.error("Download error:", err);
           res.status(404).json({ error: "File not found" });
@@ -81,17 +115,26 @@
     })
 
     app.post('/previewTransforms', (req, res) => {
+      let testValue = req.body.value;
       let transforms = req.body.transforms;
-      let value = req.body.value;
-      let newValue = handlers.previewTransformsHandler(value, transforms);
-      res.send(newValue);
+      if(!transforms) {
+        res.send({result:testValue});
+      } else {
+        let newValue = handlers.previewTransformsHandler(testValue, transforms);
+        res.send({result:newValue});
+      }
+      
     })
 
     app.post("/runPipeline", async (req, res) => {
       let filename = fileNameMap.get(req.body.filename).path;
-      let newFilename = "out/test.csv";
+      let newFilename = path.join("out", path.basename(filename));
       let transforms = req.body.fieldInfo.map(f => {return {fieldName:f.name, transforms:f.transformChain}});
-      await handlers.runTransformPipelineHandler(filename, newFilename, transforms);
+      try {
+        await handlers.runTransformPipelineHandler(filename, newFilename, transforms);
+      } catch(e) {
+        return res.status(400).json({ error: e });
+      }
       return res.send({status:"Success"})
     })
 
